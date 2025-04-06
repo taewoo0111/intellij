@@ -23,8 +23,8 @@ public class Com1EmpDto {
     private int hSal;
     private int workTime;
     private String email;
-    private String createdAt;
     private String contract;
+    private String createdAt;
     // 페이징 처리
     private int startRowNum;
     private int endRowNum;

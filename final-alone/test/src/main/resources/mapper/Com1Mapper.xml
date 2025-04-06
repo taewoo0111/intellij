@@ -8,7 +8,7 @@
     </insert>
     <delete id="deleteStore" parameterType="int">
         delete from com1
-        where storenum=#{storeNum]}
+        where storenum=#{storeNum}
     </delete>
     <select id="getStoreNumList" resultType="integer">
         select storenum

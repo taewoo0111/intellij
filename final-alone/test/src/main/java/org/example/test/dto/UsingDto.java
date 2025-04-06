@@ -9,7 +9,7 @@ import org.apache.ibatis.type.Alias;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Alias("usingDto")
+@Alias("UsingDto")
 @Builder
 public class UsingDto {
     private int comNum;

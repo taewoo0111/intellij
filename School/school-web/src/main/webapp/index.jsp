@@ -9,6 +9,24 @@
   <h1>인덱스 페이지</h1>
     <p><a href="hello">오늘의 인사</a></p>
 
+  <h2>입력 페이지</h2>
+   <form action="gender">
+     <input type="text" name="name" placeholder="이름을 입력하세요..." required />
+     <input type="text" name="jumin" placeholder="주민번호를 입력하세요..." required />
+     <button type="submit">전송</button>
+   </form>
+
+  <h2>이동 페이지</h2>
+  <form action="move">
+    <label for="site">사이트 고르기</label>
+    <select name="site" id="site">
+      <option value="naver">네이버</option>
+      <option value="daum">다음</option>
+      <option value="google">구글</option>
+    </select>
+    <button type="submit">이동</button>
+  </form>
+
   <div class="container mt-5">
     <h2 class="mb-4">로그인</h2>
     <form action="login" method="post">
