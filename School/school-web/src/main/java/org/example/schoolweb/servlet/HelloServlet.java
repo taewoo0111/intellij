@@ -25,7 +25,7 @@ public class HelloServlet extends HttpServlet {
         pw.println("<title>오늘의 인사 페이지</title>");
         pw.println("</head>");
         pw.println("<body>");
-        pw.println("<p> 오늘의 인사: <strong>"+ hello + "</strong></p>");
+        pw.println("<p> 오늘의 인사: <strong>" + hello + "</strong></p>");
         pw.println("</body>");
         pw.println("</html>");
         pw.close();

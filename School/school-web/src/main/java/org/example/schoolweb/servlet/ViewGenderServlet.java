@@ -13,7 +13,7 @@ public class ViewGenderServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
-        String gender = (String)req.getAttribute("gender");
+        String gender = (String) req.getAttribute("gender");
 
         resp.setContentType("text/html;charset=UTF-8");
         resp.getWriter().println("<html>");
